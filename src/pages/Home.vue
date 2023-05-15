@@ -4,7 +4,9 @@
             <el-aside width="100px">
                 <Nav></Nav>
             </el-aside>
-            <div>你好，home</div>
+            <el-main>
+                <router-view></router-view>
+            </el-main>
         </el-container>
     </div>
 </template>
