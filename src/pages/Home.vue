@@ -10,6 +10,12 @@
 
 <script>
 import { Nav } from "../components/Nav.vue";
+export default (await import('vue')).defineComponent({
+    name: 'Home',
+    components: {
+        Nav
+    }
+})
 </script>
 
 <style lang="scss" scoped>
