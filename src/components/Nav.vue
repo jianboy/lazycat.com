@@ -27,7 +27,7 @@
         }
     }
 </script>
-<style scoped>
+<style lang="scss" scoped>
 .nav{
     width:100%;
     height: 90vh;

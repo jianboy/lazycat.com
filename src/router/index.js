@@ -4,8 +4,6 @@ import ChatHome from '../pages/ChatHome'
 import Home from '../pages/Home'
 import Video from '../pages/Video'
 import MobileChat from '../pages/MobileChat'
-import Setting from '../pages/Setting'
-import Lingting from '../pages/Lingting.vue'
 
 export default new VueRouter({
     routes: [
@@ -22,16 +20,7 @@ export default new VueRouter({
                     path: "/Video",
                     name: "Video",
                     componet: Video
-                }, {
-                    path: "/Lingting",
-                    name: "Lingting",
-                    componet: Lingting
-                }, {
-                    path: "/Setting",
-                    name: "Setting",
-                    componet: Setting
-                },
-
+                }
             ]
         }, {
             path: "/MobileChat",
